@@ -10,18 +10,22 @@
     --Grayish-blue: hsl(210, 4%, 67%);
     --White: hsl(0, 0%, 100%);
 }
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+}
 .header{
     background-image: url(images/desktop/image-header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
     min-height: 100vh;
     position: relative;
 }
 @media only screen and (max-width: 560px){
     .header{
         background-image: url(images/mobile/image-header.jpg);
-        min-height: 80vh;
-        background-size: cover;
     }
 }
 .custom-navbar{
@@ -34,16 +38,30 @@
     color: var(--White);
 }
 .custom-arrow{
-    bottom: 8rem;
+    bottom: 20%;
     left: 50%;
 }
 @media only screen and (min-width: 560px){
     .custom-arrow{
-        bottom: 10%;
+        bottom: 35%;
     }
 }
 .custom-heading{
     margin-top: 10rem;
     font-size: 2.5rem;
     color: red;
+}
+.ct-h-80vh{
+    min-height: 80vh;
+}
+@media only screen and (max-width: 800px){
+    .custom-h-40vh{
+        min-height: 40vh;
+    }
+}
+.custom-padding{
+    padding: 4rem;
+}
+.custom-padding > *:not(:last-of-type){
+    padding-bottom: 3rem;
 }
