@@ -65,3 +65,24 @@
 .custom-padding > *:not(:last-of-type){
     padding-bottom: 3rem;
 }
+.custom-btm-2{
+    top: 70%;
+    padding-inline: 4rem;
+    color: white;
+}
+.custom-btm-2 > h2{
+    padding-bottom: 2rem;
+}
+@media only screen and (min-width: 800px){
+    .custom-btm-2{
+        top: 50%;
+    }
+    .custom-btm-2 > h2{
+        padding-bottom: 1rem;
+    }
+}
+.custom-fig-width{
+    width: 15%;
+    border-radius: 50%;
+    overflow: hidden;
+}
