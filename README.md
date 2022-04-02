@@ -2,7 +2,7 @@
 
 #overview:
 
-this is a project offered on frontend mentors for free to practice. This is more of a practice project for my bootsrap skills
+this is a project offered on frontend mentors for free to practice. This is more of a practice project for my bootstrap skills
 
 #Technologies and Methodologies:
 
