@@ -28,6 +28,13 @@
         background-image: url(images/mobile/image-header.jpg);
     }
 }
+body{
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: 'Fraunces', serif;
+}
 .custom-navbar{
     background-color: transparent;
 }
