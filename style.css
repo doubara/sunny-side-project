@@ -93,3 +93,55 @@ h1,h2,h3,h4,h5,h6{
     border-radius: 50%;
     overflow: hidden;
 }
+@media only screen and (max-width: 800px){
+    .custom-position-absolute{
+        display: none;
+        position: absolute;
+        padding-block: 2rem;
+    }
+    .custom-w-60{
+        width: 70%;
+    }
+    .custom-w-60::after{
+        content: "";
+        display: block;
+        position: absolute;
+        right: -9%;
+        top: 0%;
+        width: 0%;
+        height: 0%;
+        border: 1rem solid white;
+        border-right-color: transparent;
+        border-bottom-color: transparent;
+        
+
+    }
+    .custom-bg-white{
+        background-color: white;
+        
+    }
+    .custom-bg-white li > *{
+        color: var(--Dark-grayish-blue);
+    }
+    .custom-postion-align{
+        top: 100%;
+        left: 50%;
+        transform: translateX(-50%);
+        text-align: center;
+    }
+    .show{
+        display: block;
+    }
+    .custom-bg-yellow{
+        background-color: var(--Yellow);
+        display: inline-block;
+        padding-block: .5rem;
+        width: 6rem;
+    }
+}
+.graphic-design-text{
+    color: var(--graphic-design-text);
+}
+.photography-text{
+    color: var(--photography-text);
+}
